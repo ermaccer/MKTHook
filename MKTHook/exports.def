@@ -1,0 +1,7 @@
+LIBRARY mkthok32
+EXPORTS
+    RegCloseKey      = ADVAPI32.RegCloseKey
+    RegOpenKeyA      = ADVAPI32.RegOpenKeyA
+    RegOpenKeyExA    = ADVAPI32.RegOpenKeyExA
+    RegQueryValueExA = ADVAPI32.RegQueryValueExA
+    RegSetValueExA   = ADVAPI32.RegSetValueExA
