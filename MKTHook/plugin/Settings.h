@@ -13,6 +13,7 @@ public:
 
 	bool bEnableConsoleWindow;
 	bool bSkipIntro;
+	bool bForceCharacterLoadingForEndurance;
 	
 	int  nGraphicsBufferSize;
 	int  nAudioBufferSize;

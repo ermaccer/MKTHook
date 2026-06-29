@@ -11,6 +11,7 @@ eSettingsManager::eSettingsManager()
 
 	bEnableConsoleWindow = ini.ReadBoolean("Settings", "bEnableConsoleWindow", true);
 	bSkipIntro = ini.ReadBoolean("Settings", "bSkipIntro", true);
+	bForceCharacterLoadingForEndurance = ini.ReadBoolean("Settings", "bForceCharacterLoadingForEndurance", false);
 
 	nGraphicsBufferSize = ini.ReadInteger("Limits", "nGraphicsBufferSize", 0x200000);
 	nAudioBufferSize = ini.ReadInteger("Limits", "nAudioBufferSize", 0x480000);
